@@ -83,11 +83,11 @@ donates:
     qrcode: https://zc-tuchuang.oss-cn-beijing.aliyuncs.com/uPic/ali_zc.JPG
   - type: buymeacoffee
     url: https://www.buymeacoffee.com/zacky
-  - type: paypal
-    business: 1404428338@qq.com
-    currency_code: USD
   - type: wechat
     qrcode: https://zc-tuchuang.oss-cn-beijing.aliyuncs.com/uPic/we_zc.JPG
+
+paypal_me:
+  url: https://paypal.me/zacky1230
 
 sidebar:
   left:
