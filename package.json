@@ -1,0 +1,35 @@
+{
+  "name": "zacky-blog",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Hexo source for www.zctech88.com",
+  "scripts": {
+    "clean": "hexo clean",
+    "build": "hexo generate",
+    "check": "npm run clean && npm run build",
+    "new": "hexo new post",
+    "server": "hexo server"
+  },
+  "engines": {
+    "node": ">=24.11.0 <25"
+  },
+  "packageManager": "npm@11.9.0",
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-icarus": "^6.1.1"
+  }
+}
