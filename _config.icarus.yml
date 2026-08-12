@@ -6,6 +6,8 @@ logo:
 
 head:
   favicon: /img/favicon.svg
+  meta:
+    - name=baidu-site-verification;content=code-HGBUFlHbXN
   manifest:
     name: zacky's blog
     short_name: Zacky Blog
@@ -74,6 +76,19 @@ search:
   type: insight
   index_pages: true
 
+donates:
+  - type: afdian
+    url: https://afdian.net/@zacky
+  - type: alipay
+    qrcode: https://zc-tuchuang.oss-cn-beijing.aliyuncs.com/uPic/ali_zc.JPG
+  - type: buymeacoffee
+    url: https://www.buymeacoffee.com/zacky
+  - type: paypal
+    business: 1404428338@qq.com
+    currency_code: USD
+  - type: wechat
+    qrcode: https://zc-tuchuang.oss-cn-beijing.aliyuncs.com/uPic/we_zc.JPG
+
 sidebar:
   left:
     sticky: false
@@ -111,10 +126,16 @@ widgets:
     type: tags
     order_by: name
     show_count: true
+  - position: right
+    type: adsense
+    client_id: ca-pub-3530389157835100
+    slot_id: "9896619162"
 
 plugins:
   animejs: true
   back_to_top: true
+  baidu_analytics:
+    tracking_id: 2f6438815bfbd06aa51a14d56cd32d57
   busuanzi: true
   gallery: true
   katex: false
